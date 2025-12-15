@@ -5,6 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Eclipse Total 2026</title>
   <style>
+    header {
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-fondo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.sobre-video {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
     body {
       margin: 0;
       font-family: Arial, sans-serif;
@@ -18,115 +45,16 @@
     }
 
     header {
-      position: relative;
-      height: 80vh;
-      overflow: hidden;
-      text-align: center;
-      color: white;
-    }
+  <video autoplay muted loop playsinline class="video-fondo">
+  <source src="videos/YTDown.com_YouTube_Por-que-se-produce-un-eclipse_Media_hqR-vmO-7HM_001_1080p.mp4" type="video/mp4">
+  Tu navegador no soporta video HTML5.
+</video>
 
-    header video {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: 0;
-    }
+<h1 class="sobre-video">Eclipse Total de Sol 2026 en España</h1>
+<p class="sobre-video">Un evento único que no se puede repetir. La mayoría de personas no sabe cómo prepararse ni cómo observarlo con seguridad.</p>
+<a href="#registro" class="cta sobre-video">Recibir información gratuita</a>
 
-    header .overlay {
-      position: relative;
-      z-index: 1;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-
-    header h1 {
-      font-size: 3rem;
-      margin-bottom: 20px;
-    }
-
-    header p {
-      font-size: 1.5rem;
-      margin-bottom: 20px;
-    }
-
-    .cta {
-      display: inline-block;
-      background-color: #000;
-      padding: 15px 25px;
-      border-radius: 5px;
-      font-weight: bold;
-      transition: background 0.3s;
-    }
-
-    .cta:hover {
-      background-color: #333;
-    }
-
-    section {
-      padding: 60px 20px;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    section h2 {
-      text-align: center;
-      margin-bottom: 40px;
-      font-size: 2rem;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-
-    .card {
-      background: white;
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-      text-align: center;
-      padding-bottom: 20px;
-    }
-
-    .card img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-    }
-
-    .card h3 {
-      margin: 15px 0 10px 0;
-    }
-
-    .card p {
-      padding: 0 15px;
-      font-size: 14px;
-      line-height: 1.5;
-    }
-
-    .video-section iframe {
-      width: 100%;
-      max-width: 560px;
-      height: 315px;
-      border: none;
-    }
-
-    footer {
-      background-color: #000;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-    }
-
-    /* MailerLite form responsive */
-    @media only screen and (max-width: 600px) {
-      header h1 {
-        font-size: 2rem;
-      }
+<div class="countdown" id="countdown"></div>
 
       header p {
         font-size: 1.2rem;
