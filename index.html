@@ -1,169 +1,168 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eclipse Total 2026</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eclipse Total España 2026 | Preparación Segura</title>
+  <meta name="description" content="Prepárate para el eclipse total de 2026 en España con información clara, segura y práctica. No improvises un momento irrepetible." />
   <style>
-    header {
-  position: relative;
-  height: 80vh;
-  overflow: hidden;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.video-fondo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 0;
-}
-
-.sobre-video {
-  position: relative;
-  z-index: 1;
-  color: #fff;
-}
-
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0b0d17;
+      color: #ffffff;
+      line-height: 1.6;
     }
-
-    a {
-      text-decoration: none;
-      color: white;
-    }
-
     header {
-  <video autoplay muted loop playsinline class="video-fondo">
-  <source src="videos/YTDown.com_YouTube_Por-que-se-produce-un-eclipse_Media_hqR-vmO-7HM_001_1080p.mp4" type="video/mp4">
-  Tu navegador no soporta video HTML5.
-</video>
-
-<h1 class="sobre-video">Eclipse Total de Sol 2026 en España</h1>
-<p class="sobre-video">Un evento único que no se puede repetir. La mayoría de personas no sabe cómo prepararse ni cómo observarlo con seguridad.</p>
-<a href="#registro" class="cta sobre-video">Recibir información gratuita</a>
-
-<div class="countdown" id="countdown"></div>
-
-      header p {
-        font-size: 1.2rem;
-      }
+      padding: 20px;
+      text-align: center;
+      background: radial-gradient(circle at center, #1b1f3b, #0b0d17);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto 20px;
+      color: #cfd3ff;
+    }
+    .cta {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #ffcc00;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 15px;
+    }
+    video {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .card {
+      background: #151933;
+      padding: 30px;
+      border-radius: 8px;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #ffcc00;
+    }
+    .countdown {
+      text-align: center;
+      font-size: 1.5rem;
+      margin-top: 30px;
+      color: #ffcc00;
+    }
+    footer {
+      background: #05060d;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #999;
     }
   </style>
 </head>
 <body>
 
-  <!-- Hero con video de fondo -->
-  <header>
-    <video autoplay muted loop playsinline>
-      <source src="videos/eclipse.mp4" type="video/mp4">
-    </video>
-    <div class="overlay">
-      <h1>Eclipse Total de Sol 2026</h1>
-      <p>Prepárate para vivir un momento único y seguro</p>
-      <a href="#registro" class="cta">Recibir información gratuita</a>
+<header>
+  <h1>Eclipse Total de Sol 2026 en España</h1>
+  <p>Un evento único que no se puede repetir. Observa el eclipse de forma segura y sin improvisar.</p>
+  <video controls>
+    <source src="YTDown.com_YouTube_Por-que-se-produce-un-eclipse_Media_hqR-vmO-7HM_001_1080p.mp4" type="video/mp4">
+    Tu navegador no soporta la reproducción de video.
+  </video>
+  <a href="#registro" class="cta">Recibir información gratuita</a>
+  <div class="countdown" id="countdown"></div>
+</header>
+
+<section>
+  <h2>¿Por qué no improvisar?</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Riesgo real</h3>
+      <p>Mirar un eclipse sin protección adecuada puede causar daños permanentes en la vista.</p>
     </div>
-  </header>
-
-  <!-- Sección de información / imágenes -->
-  <section>
-    <h2>¿Por qué no improvisar?</h2>
-    <div class="grid">
-      <div class="card">
-        <img src="imagenes/riesgo.jpg" alt="Riesgo ocular">
-        <h3>Riesgo real</h3>
-        <p>Mirar un eclipse sin protección puede dañar tus ojos permanentemente.</p>
-      </div>
-      <div class="card">
-        <img src="imagenes/confusion.jpg" alt="Confusión">
-        <h3>Confusión</h3>
-        <p>Horarios y visibilidad cambian según la zona. No improvises.</p>
-      </div>
-      <div class="card">
-        <img src="imagenes/oportunidad.jpg" alt="Oportunidad única">
-        <h3>Oportunidad única</h3>
-        <p>El eclipse total de 2026 no volverá a verse así en España en décadas.</p>
-      </div>
+    <div class="card">
+      <h3>Confusión</h3>
+      <p>Horarios, fases, duración y visibilidad cambian según la zona. La mayoría no lo sabe.</p>
     </div>
-  </section>
-
-  <!-- Formulario de MailerLite -->
-  <section id="registro">
-    <h2>Acceso gratuito</h2>
-    <p>Recibe la guía completa para observar el eclipse de forma segura.</p>
-
-    <!-- Código de MailerLite -->
-    <!-- Pega todo tu código de MailerLite aquí tal cual lo compartiste -->
-    <style type="text/css">@import url("https://assets.mlcdn.com/fonts.css?version=1765458");</style>
-    <!-- ... todo el resto del código del formulario ... -->
-    <div id="mlb2-34662410" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-34662410">
-      <div class="ml-form-align-center ">
-        <div class="ml-form-embedWrapper embedForm">
-          <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
-            <div class="ml-form-embedContent" style=" ">
-              <h4>¡Prepárate para el Eclipse Total 2026!</h4>
-              <p>Recibe <strong>gratis </strong>la <strong>guía completa</strong> para observarlo de forma segura.</p>
-            </div>
-            <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/1984325/forms/173873266732041502/subscribe" data-code="" method="post" target="_blank">
-              <div class="ml-form-formContent">
-                <div class="ml-form-fieldRow ml-last-item">
-                  <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
-                    <input aria-label="email" aria-required="true" type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email">
-                  </div>
-                </div>
-              </div>
-              <div class="ml-form-embedSubmit">
-                <button type="submit" class="primary">Quiero la guía</button>
-                <button disabled="disabled" style="display: none;" type="button" class="loading">
-                  <div class="ml-form-embedSubmitLoad"></div>
-                  <span class="sr-only">Loading...</span>
-                </button>
-              </div>
-              <input type="hidden" name="ml-submit" value="1">
-            </form>
-          </div>
-          <div class="ml-form-successBody row-success" style="display: none">
-            <div class="ml-form-successContent">
-              <h4>Thank you!</h4>
-              <p>You have successfully joined our subscriber list.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="card">
+      <h3>Oportunidad única</h3>
+      <p>El eclipse total de 2026 no volverá a verse así en España en décadas.</p>
     </div>
-    <script>
-      function ml_webform_success_34662410() {
-        var $ = ml_jQuery || jQuery;
-        $('.ml-subscribe-form-34662410 .row-success').show();
-        $('.ml-subscribe-form-34662410 .row-form').hide();
-      }
-    </script>
-    <script src="https://groot.mailerlite.com/js/w/webforms.min.js?v176e10baa5e7ed80d35ae235be3d5024" type="text/javascript"></script>
-    <script>
-      fetch("https://assets.mailerlite.com/jsonp/1984325/forms/173873266732041502/takel")
-    </script>
-  </section>
+  </div>
+</section>
 
-  <!-- Video explicativo -->
-  <section class="video-section">
-    <h2>Guía rápida en video</h2>
-    <iframe src="https://www.youtube.com/embed/hqR-vmO-7HM" title="Video guía eclipse 2026" allowfullscreen></iframe>
-  </section>
+<section id="registro">
+  <h2>Acceso gratuito</h2>
+  <p style="text-align:center; max-width:700px; margin:auto;">Deje su email y reciba una guía gratuita con todo lo esencial para prepararse correctamente para el eclipse total de 2026.</p>
+  <!-- Aquí va tu código de MailerLite -->
+</section>
 
-  <footer>
-    <p>&copy; 2025 Eclipse Total 2026 | Todos los derechos reservados</p>
-  </footer>
+<section>
+  <h2>Qué llegará después</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Gafas homologadas</h3>
+      <p>Acceso prioritario a gafas certificadas ISO para observación segura.</p>
+    </div>
+    <div class="card">
+      <h3>Pack completo</h3>
+      <p>Guía detallada, recordatorios, checklist y explicación paso a paso.</p>
+    </div>
+    <div class="card">
+      <h3>Stock limitado</h3>
+      <p>Unidades limitadas disponibles antes del evento.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Aviso: Nunca observe el sol sin protección certificada. Esta web tiene fines informativos.</p>
+</footer>
+
+<script>
+  const countdown = document.getElementById('countdown');
+  const eclipseDate = new Date('2026-08-12T18:00:00');
+
+  function updateCountdown() {
+    const now = new Date();
+    const diff = eclipseDate - now;
+
+    if (diff <= 0) {
+      countdown.innerHTML = 'El eclipse está ocurriendo ahora';
+      return;
+    }
+
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    countdown.innerHTML = `Faltan ${days} días para el eclipse total`;
+  }
+
+  updateCountdown();
+  setInterval(updateCountdown, 86400000);
+</script>
 
 </body>
 </html>
